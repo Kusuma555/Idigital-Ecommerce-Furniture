@@ -1,8 +1,1 @@
-node{
-  stage('SCM checkout'){
-    git 'https://github.com/Kusuma555/Idigital-Ecommerce-Furniture'
-    }
-    stage('Compile-Package'){
-      sh 'mvn package'
-      }
-  }
+file deleted
